@@ -8,5 +8,5 @@
       command: docker run -dp 8081:8080 -v /mnt/project/game-of-life/gameoflife-web/target/:/usr/local/tomcat/webapps --name tomcat-server tomcat:9.0
 
 
-    - name: copy war file to tomcat-server
-      copy: src=/mnt/project/game-of-life/gameoflife-web/target/gameoflife.war dest=/var/lib/docker/volumes/vol1/_data/
+#    - name: copy war file to tomcat-server
+ #     copy: src=/mnt/project/game-of-life/gameoflife-web/target/gameoflife.war dest=/var/lib/docker/volumes/vol1/_data/
